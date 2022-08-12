@@ -80,3 +80,24 @@ int main(){
 // first one is min
 // second is min
 // third is min
+
+//
+#include<stdio.h>
+int main(){
+  int x ,y,z;
+  int min;
+  printf("Enter x:");
+  scanf("%d",&x);
+  printf("Enter y:");
+  scanf("%d",&y);
+  printf("Enter z:");
+  scanf("%d",&z);
+  min = x;
+  if (y<min){
+    min = y;
+  }
+  if (z<min){
+    min = z;
+  }
+  printf("%d\n",min);
+}
