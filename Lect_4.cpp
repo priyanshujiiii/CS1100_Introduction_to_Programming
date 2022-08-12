@@ -99,5 +99,5 @@ int main(){
 int main(){
   int z;
   scanf("%d",&z);
-  printf("value input = %d/n',z);
+  printf("value input = %d/n",z);
 }
