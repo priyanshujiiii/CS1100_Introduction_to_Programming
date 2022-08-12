@@ -32,4 +32,3 @@ int age; age = 30;
 // expected in the format string.
 // Note: Unlike typical functions, printf takes variable number of arguments.
 // formated output
-// 
