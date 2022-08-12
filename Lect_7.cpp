@@ -67,5 +67,24 @@ int main(){
     printf("invalid character, enter one of w,a,b\n");
   }
 }
-
+// alternative way
+#include<stdio.h>
+int main(){
+  char input; 
+  printf("input a character:\t");
+  scanf("%c",&input);
+  if (input == 'w' || input == 'a' || input == 'b'){
+    if (input == 'w'){
+      printf("attendance in below 85%%\n");
+  }
+    if (input == 'A'){
+      printf("marks between 90-100");
+  }
+    if (input == 'w'){
+      printf("marks between 80-90");
+  }
+  else{
+    printf("invalid character, enter one of w,a,b\n");
+  }
+}
   
