@@ -94,3 +94,10 @@ int main(){
 // comma missing the double quotes.
 // mismatch in the actual number of variables given and those expexted in the format string.
 // & missing before the variable.
+// like printf , scanf also takes variable number of argumants.
+#include<stdio.h>
+int main(){
+  int z;
+  scanf("%d",&z);
+  printf("value input = %d/n',z);
+}
