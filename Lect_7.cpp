@@ -28,4 +28,15 @@ int main(){
 // task for today 
 // task marks in a course based on input.
 
-         
+// desired behavior input to marks mapping
+// input :  a single charcter - one W,A,B
+// OUTPUT: A MESSAGE BASED ON THE Rules below.
+// W: low attendance.
+// A: Marks between 90-100
+// B; marks batween 80-90
+// any other : invalid input
+// double selection : if - else construct
+// decide to execute a aprt of the program based on a condition is true and some other part if condition false.
+// syntax:
+// if(test condition){body of if}
+// else{body of else}
