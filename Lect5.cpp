@@ -16,4 +16,19 @@ int age = 10;
 int age; age = 30;
 // left and right hand of assignment.
 // printf(format-string,var1,var2,.......,varn)
-//
+// output statement 
+//Format specifier
+//int: %d
+//float: %f
+// printfformat-string,var1,var2,......varn)
+// Format string specifies
+// how many variables to expect?
+// Type of each variable.
+// How many columns to use for printing? (width)
+// what is the precision ? (if applicable)
+// common mistakes:
+// comma missing after the double quotes.
+// mismatch in the actual number of variables given and those
+// expected in the format string.
+// Note: Unlike typical functions, printf takes variable number of arguments.
+// formated output
