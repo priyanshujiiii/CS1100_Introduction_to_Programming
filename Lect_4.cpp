@@ -77,4 +77,20 @@ int main(){
   printf ("The value of f1 : %3f\n",f1);
   printf ("The value of f1 : %20f\n",f1);
 }
-  
+
+#include<stdio.h>
+int main(){
+  int z = 20;
+  printf("The value of x in decimal in %d\n",z);
+  printf("The value of x in octal in %o\n",z);
+  printf("The value of x in hexa-decimal in %d\n",z);
+}
+
+// input statement
+//scanf(format-string,&var1,&var2,....,&varn)
+// How amny variables to expect ?
+// Type of each variable.
+// Common mistakes.
+// comma missing the double quotes.
+// mismatch in the actual number of variables given and those expexted in the format string.
+// & missing before the variable.
