@@ -40,3 +40,32 @@ int main(){
 // syntax:
 // if(test condition){body of if}
 // else{body of else}
+
+// input :  a single charcter - one W,A,B
+// OUTPUT: A MESSAGE BASED ON THE Rules below.
+// W: low attendance.
+// A: Marks between 90-100
+// B; marks batween 80-90
+// any other : invalid input
+// if (input=='w' or input == 'a' or input ==  'b'){ do something}
+// else {//output error message}
+#include<stdio.h>
+int main(){
+  char input; 
+  printf("input a character:\t");
+  scanf("%c",&input);
+  if (input == 'w'){
+    printf("attendance in below 85%%\n");
+  }
+  if (input == 'A'){
+    printf("marks between 90-100");
+  }
+  if (input == 'w'){
+    printf("marks between 80-90");
+  }
+  else{
+    printf("invalid character, enter one of w,a,b\n");
+  }
+}
+
+  
