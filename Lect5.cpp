@@ -47,4 +47,14 @@ int main(void){
   printf("%ld\n",sizeof(x));
   return 0;
 }
- 
+//Memory allocated and ranges of data types
+// Data type: short int
+// 2 bytes of memory allocated.
+#include<stdio.h>
+int main(){
+  short int x = 10;
+  short int y = 50000;
+  printf("size of short int %lu\n", sizeof(x));
+  printf("x=%d\n",x);
+  printf("y=%d\n",y);
+}      
