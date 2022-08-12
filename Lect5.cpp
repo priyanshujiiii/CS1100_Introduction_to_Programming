@@ -58,3 +58,10 @@ int main(){
   printf("x=%d\n",x);
   printf("y=%d\n",y);
 }      
+// variables and memory 
+// every variable is assigned a box.
+// this box is memory location.
+// the location has an address.
+// & allows to get the address of myVar.
+// what does printf() need?
+// is there any other commmand that would need the address?
