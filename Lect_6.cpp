@@ -36,3 +36,17 @@ int main(){
   printf("y=%d\n",y);
   printf("n=%d\n",n);
 }
+// applicable to a variable only!
+// useful for modifying loop indicies.
+// try it for(x+y)++
+// try it for character
+// assigment operator = 
+//form: variable-name = expression
+// z = x+y (correct form)
+// x+y = z (incorrect form)
+
+// Assigment between different data types.
+// what happens if you assign float to int and vice versa?
+// multiple assigments.
+// x = y = z = (a+b)
+// evaluation happen right to left.
