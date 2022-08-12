@@ -40,3 +40,32 @@ int main(){
   char ch = 'a';
   printf ("The character is: %c\n",ch)
 }
+
+// output statement 
+//Format specifier
+//int: %d
+//float: %f
+// printfformat-string,var1,var2,......varn)
+// Format string specifies
+// how many variables to expect?
+// Type of each variable.
+// How many columns to use for printing? (width)
+// what is the precision ? (if applicable)
+// common mistakes:
+// comma missing after the double quotes.
+// mismatch in the actual number of variables given and those
+// expected in the format string.
+// Note: Unlike typical functions, printf takes variable number of arguments.
+// formated output
+// printf("%w.pC",x);
+// w,p and C are place holders , can take different values.
+// w: width of the output. (optional)
+// p: precision of the output. (optional)
+// C: Conversion character.
+// d: integer
+// f: float
+// c: character
+// x: hexadecimal
+// o: octal
+// u: unsigned int
+// e: real decimal in exponent form
