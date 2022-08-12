@@ -22,3 +22,17 @@ int main(){
 // first: parenthsized; inner-most to outer-most.
 // second: *,/,%: left to right.
 // third: +,-; left to right.
+
+//increment and decrement operator
+
+#include<stdio.h>
+int main(){
+  int x,y;
+  int n = 10;
+  
+  x = n++;
+  y = ++n;
+  printf("x=%d\n",x);
+  printf("y=%d\n",y);
+  printf("n=%d\n",n);
+}
