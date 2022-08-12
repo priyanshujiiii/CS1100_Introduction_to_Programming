@@ -50,3 +50,25 @@ int main(){
 // multiple assigments.
 // x = y = z = (a+b)
 // evaluation happen right to left.
+// x = x + 10 can be written as x += 10;
+// instead of +, we can also have -,*,/,%
+// determine the parity of given intger
+// determine the min of three intgers
+// decide to execute a aprt of the program if a condition is true.
+// syntax:
+// if(test-expression)
+// { Body of if }
+// Test expression typically relation and logocial operator.
+// Relational: < <= > >= == !=
+// (a<b) : evaluates to 1 if a < band 0 otherwise.
+// (a==10): evaluates to 1 if a ==10 and 0 otherwise.
+// Task2 Determine the min of three intgers.
+// input three integers.
+// output : min of the three intgers.
+// program design:
+// a variable to store min
+// what do i initialize the variale min?
+// for each of three numbers:
+// if(input<min)
+// modify min
+// we will avoid loops since its only 3 numbers.
