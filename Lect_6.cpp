@@ -72,3 +72,11 @@ int main(){
 // if(input<min)
 // modify min
 // we will avoid loops since its only 3 numbers.
+
+// Testing 
+
+// 3 distinct numbers
+// all 3 numbers are the same
+// first one is min
+// second is min
+// third is min
