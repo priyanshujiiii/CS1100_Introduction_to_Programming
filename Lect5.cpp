@@ -32,6 +32,7 @@ int age; age = 30;
 // expected in the format string.
 // Note: Unlike typical functions, printf takes variable number of arguments.
 // formated output
+// Output statement and sizeof
 #include<stdio.h>
 int main(){
   char mychar;
@@ -40,3 +41,10 @@ int main(){
   printf("int: #of bytes=%d \n",sizeof(myInt));
   printf("float: #of bytes=%d \n",sizeof(float));
 }
+#include <stdio.h>
+int main(void){
+  int x;
+  printf("%ld\n",sizeof(x));
+  return 0;
+}
+ 
