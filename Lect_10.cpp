@@ -155,3 +155,5 @@ int main(){
 // Naturally needed loops.
 // Finding min of positive integers. Euclid's idea are natural use cases foe while construct
 // we could achieve all of them using while construct
+
+// A very important and useful learning : Power of a clever algorithm.
