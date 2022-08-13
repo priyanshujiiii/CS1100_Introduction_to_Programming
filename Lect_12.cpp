@@ -35,3 +35,20 @@ printf("gcd of input numbers in %d\n",gcd);
 //3 if expr is fale , exit loop.
 // if expr is false , exit loop.
 // expr must be be changedto ensure that it is not an infinite loop.
+
+
+// simple method to compute GCD: using the loop.
+// Given positive intgers x and y , output the gcd of x and y.
+// z contains min of x and y
+int gcd = 1;
+for(int i =1; i <=z;i++){
+  if((x%i == 0)&&(y%i==0)){
+    gcd = i
+  }
+}
+// at the end of the body stmt 2 (i++) is executed.
+// can replace i ++ using any of:
+// can replace i ++ using any of:
+// ++i;
+// i = i+1;
+// i +=1;
