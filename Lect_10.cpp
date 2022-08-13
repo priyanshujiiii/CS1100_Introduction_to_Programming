@@ -124,3 +124,34 @@ while(-------){
   // if x < y , exchange x and y.
 }
 printf("gcd of input numbers is %d\n",y);
+
+         
+//repel program
+
+#include<stdio.h>
+int main(){
+  int x ,y ,z;
+  scanf("%d",&x);
+  scanf("%d",&y);
+  if (x<y){
+    z = x;
+  }
+  else{
+    z = y;
+  }
+  // contains min of a and y
+  int i , gcd;
+  gcd = 1; i  = 1;
+  while(i<=z){
+    if((x%i == 0)&&(y%i==0)){
+      gcd  = i;
+    }
+    i++;
+  }
+  printf( "gcd of input number is %d\n",gcd);
+  return 0;
+}
+// Today tasks Lerning so far
+// Naturally needed loops.
+// Finding min of positive integers. Euclid's idea are natural use cases foe while construct
+// we could achieve all of them using while construct
