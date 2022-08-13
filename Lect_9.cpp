@@ -66,3 +66,27 @@ int main(){
     getchar(); peintf("Input the operand \t");scanf("%c",&op)
   }
 }
+
+
+// Mini calculator : using a true expression
+// let the while loop run forever and break it when needed.
+while{
+  printf("Input the operand \t"):scanf("%d",&x);
+  if (op == 'q' || op == 'Q'){
+    break;
+  }
+  printf("input the first intger\t");scanf("%d",&x);
+  printf("input the second intger\t");scanf("%d",&y);
+  switch(op){
+      case '+': printf("x+y = %d",x+y);break;
+      case '-': printf("x-y = %d",x-y);break;
+      case '*': printf("x*y = %d",x*y);break;
+      case '/': printf("x/y = %d",x/y);break;
+      case '%': printf("x mod y = %d",x%y);break;
+      case 'q': printf("invalid operator\n");break;
+      default: printf("error\n");
+   }
+   getchar(); peintf("Input the operand \t");scanf("%c",&op);
+}
+      
+    
