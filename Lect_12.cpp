@@ -103,3 +103,23 @@ for(stmt1,exr, stmt2){
     continue;
   inside2;
 }
+
+// if you have a continue in the body of the loop , skip the remaining statements in the body, execute stmt2 and the test expr.
+
+
+// read the code
+// complete code to print number 1 tp 100 excluding multiples of 3.
+int i =1;
+while(1){
+  if(i%3==0)
+    -------;
+  else{
+    if i <=100){
+      printf("\d \n",i);
+      i++;
+    }
+    else{
+      ----------;
+    }
+  }
+}
