@@ -93,3 +93,13 @@ for (inti=1;i<=z;i++){
   // you are here implies (x%i == 0) and (y%i ==0)
   gcd = i;
 }
+
+// continue statement in loops in C.
+// continue : skip the rest of iteration and go to next iteration.
+// syntax.
+for(stmt1,exr, stmt2){
+  inside1;
+  if(something)
+    continue;
+  inside2;
+}
