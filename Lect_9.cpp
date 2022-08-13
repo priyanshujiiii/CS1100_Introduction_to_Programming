@@ -23,4 +23,15 @@ repeat{
 // logical '&&' , '||'
 
 
-//
+// mimi calculator using while loop
+
+#include<stdio.h>
+int main(){
+  int x, int y; char op;
+  
+  printf("Input the operand\t";scanf("%c",&op));
+  printf("Input the first intger\t";scanf("%d",&x));
+  printf("Input the second intger\t";scanf("%d",&y));
+  while (op!= 'q'){
+    switch(op){
+        
