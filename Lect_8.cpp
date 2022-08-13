@@ -32,4 +32,14 @@ int main(){
      default: printf("Invalid character. Enter one OF W,A,B)
       
 }
-                     
+// each case  can have multiple statements.
+switch(input){
+  case 'y':
+  {
+    printf(" Attendance in below 85%%\n");
+    printf("you need to repeat the course\n");
+  }
+  default: printf("error");
+}
+// the brackets after case 'w': are not required.
+// theyare added for readabilty.                     
