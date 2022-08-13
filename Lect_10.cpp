@@ -108,3 +108,19 @@ while(i<=z){
 // needs proof
 // gcd(1034,237) = gcd(797,237) = gcd(560,237) = gcd(323,237) = gcd(86,237) = gcd(86,151) = gcd(86,65) =  gcd(21,65) =  gcd(21,44)
 // gcd(23,44) = gcd(2,21) = 1
+
+//idea3
+// Given x and y , output the GCD of x and y.
+// If x%y == 0, we are done!
+// else modify x and y suitably.
+// x = x%y;
+// what if x < y?
+// exchange a and y.
+         
+// euclid algorithm
+// assume x >=y.
+while(-------){
+  // modify x ,y as needeed.
+  // if x < y , exchange x and y.
+}
+printf("gcd of input numbers is %d\n",y);
