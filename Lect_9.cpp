@@ -89,4 +89,26 @@ while{
    getchar(); peintf("Input the operand \t");scanf("%c",&op);
 }
       
-    
+// How does the program terminiate?
+
+#include<stdio.h>
+main(){
+  // takes input n -- which is an intger
+  //accepts n intger as input and outputs the
+  // min of three intgers
+  int n, int currInt;
+  int min;
+  int a;
+  scanf("%d", &currint); // take in the first integer
+  min = currInt; // initiliaze min to be curr Int
+  
+  while(a<n){
+    scanf("%d",&currInt);
+    if(currInt<min){
+      min = currInt
+    }
+    a++
+  }
+  printf("min = %d\n", min)
+}
+//n =2
