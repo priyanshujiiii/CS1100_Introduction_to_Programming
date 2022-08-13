@@ -99,3 +99,12 @@ while(i<=z){
   i++
 }
          
+// idea2
+// Given x and y , output the GCD Of X an Y.
+// Idea2
+//If y divides x we are done!
+// else there is a smaller problem to solve!
+// gcd(x,y) = gcd(x-y,y)
+// needs proof
+// gcd(1034,237) = gcd(797,237) = gcd(560,237) = gcd(323,237) = gcd(86,237) = gcd(86,151) = gcd(86,65) =  gcd(21,65) =  gcd(21,44)
+// gcd(23,44) = gcd(2,21) = 1
