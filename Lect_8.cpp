@@ -54,3 +54,15 @@ switch(input){
        printf("marks between 80--90%%\n"); break;
   default: printf("Invalid characyer. Enter one of 'w','a'and 'b'")
 }
+// remark 3
+switch(input){
+  case'w':
+  case'w':
+      printf("attendance is below 85%%\n");break;
+  case'a':
+  case'a':
+      printf("marks between 90--100%%\n"); break;
+  //..
+  deafult: printf("invalid character. enter one of w, a, ")
+}
+                     
