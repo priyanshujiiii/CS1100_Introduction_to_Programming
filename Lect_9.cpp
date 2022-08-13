@@ -34,4 +34,13 @@ int main(){
   printf("Input the second intger\t";scanf("%d",&y));
   while (op!= 'q'){
     switch(op){
-        
+        case '+': printf("x+y = %d",x+y);break;
+        case '-': printf("x-y = %d",x-y);break;
+        case '*': printf("x*y = %d",x*y);break;
+        case '/': printf("x/y = %d",x/y);break;
+        case '%': printf("x mod y = %d",x%y);break;
+        case 'q': printf("invalid operator\n");break;
+        default: printf("error\n");
+    }
+  }
+}
