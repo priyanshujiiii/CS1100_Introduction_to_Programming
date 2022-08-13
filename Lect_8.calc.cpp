@@ -21,10 +21,10 @@ int main(){
   scanf("%c",&op);
   
   printf("enter the first input \t");
-  scanf("%c",&x);
+  scanf("%d",&x);
   
   printf("enter the second input\t");
-  scanf("%c",&y);
+  scanf("%d",&y);
 
   switch (op){
     case '+': printf("x+y = %d",x+y);break;
