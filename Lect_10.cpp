@@ -72,3 +72,30 @@ if (1 == flag){
 }
 else{
   printf("prime\n");
+}  
+  
+//Finding GCD of two integrs
+// Given positive integers x and y , output the GCD of x and y.
+// idea
+// let z be min of x and y.
+// output largest such i as gcd.
+
+         
+// Given positive integers x and y , output the GCD of X and Y.
+
+if (x<y){
+  z = x;
+}
+else{
+  z = y;
+}
+
+// z contains min of x and y
+gcd = 1; i =1;
+while(i<=z){
+  if ((x%i==0) && (y%i == 0)){
+    gcd = i;
+  }
+  i++
+}
+         
