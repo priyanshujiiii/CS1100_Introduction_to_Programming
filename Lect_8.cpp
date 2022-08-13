@@ -74,3 +74,9 @@ switch(input){
   case'b':
       printf("marks between 89-90%%\n");break;
 }
+// switch: constatnt intgeral case values.
+// valid expressions
+// case 3 : , case 4 + 2:
+// case 'a':
+// invalid expressions
+// case2.3: , case: myInt , case:"A"
