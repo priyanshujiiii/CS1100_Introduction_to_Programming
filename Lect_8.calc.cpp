@@ -11,3 +11,27 @@ int main(){
     default: printf("error\n");
   }
 }
+////
+#include<stdio.h>
+int main(){
+  char op;
+  int x; int y;
+  
+  printf("enter the operator\t");
+  scanf("%c",&op);
+  
+  printf("enter the first input \t");
+  scanf("%c",&x);
+  
+  printf("enter the second input\t");
+  scanf("%c",&y);
+
+  switch (op){
+    case '+': printf("x+y = %d",x+y);break;
+    case '-': printf("x-y = %d",x-y);break;
+    case '*': printf("x*y = %d",x*y);break;
+    case '/': printf("x/y = %d",x/y);break;
+    case '%': printf("x mod y = %d",x%y);break;
+    default: printf("error\n");
+  }
+}
