@@ -70,3 +70,29 @@ main(){
 // take mid-point
 // we now have 3 values. xL, xR, xM.
 // which are useful ? the two closest ones with opposite sign for f(x)
+
+// Two initial values such that 
+// f(xL) is negative and f(xR) is positive.
+//Take mid-point xM = xL+ xR/2
+// pick two of xL,xR,xM WHICH ARE CLOSEST AND HAVE OPPOSITE SIGN FOR F(X).
+// How long ? till the two estinates are close enough!
+
+// using while loop
+
+#include<stdio.h>
+main(){
+  double xL = 1; double xR = 25;
+  double xM, epsilon;
+  epsilon = 0.0001;
+  
+  while (xR - xL >= epsilon){
+    xM = (xL+ xR)/2;
+    if((xM*xM - 55)>0){
+      xR = xM;
+    }
+    else{
+      xL = xM;
+    }
+  }
+  printf("sqrt of 55 is %.4f\n",xL);
+}
