@@ -44,3 +44,8 @@ main(){
 // printing first k primes
 // while (we havent found k primes)
 // determine if the next number is prime.
+
+int n = 2;
+while(count <= 10){
+  // decide if n is prime
+  // if n in prime , increment
