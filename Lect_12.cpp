@@ -69,3 +69,27 @@ for(;x%y!=0;){
   temp = x; x = y; y = temp;
 }
 printf("gcd of input number is %d \n",y);
+
+
+// bACK TO  SIMPLE METHOD TO COMPUTE gcd: USIN FOR LOOP
+// given positive intgers min of x and y
+// z contains min of x and y
+int gcd = 1;
+for (int i =1; i <=z; i ++){
+  if ((x%i==0)&&(y%i==0)){
+    gcd = i;
+  }
+}
+
+// if i does not divide x then there is no need to test whether i divides y.
+// if i  does not divide x , then i cannot be gcd.
+// even if i does not divide x , i must be incremented!
+
+// z contains min of x and y
+int gcd = 1;
+for (inti=1;i<=z;i++){
+  if(x%i!=0) continue;
+  if(y%i!=0) continue;
+  // you are here implies (x%i == 0) and (y%i ==0)
+  gcd = i;
+}
