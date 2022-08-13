@@ -52,3 +52,20 @@ for(int i =1; i <=z;i++){
 // ++i;
 // i = i+1;
 // i +=1;
+// stmt 1 , expr, stmt2 are all optional!
+// if expr is empty it is assumed to be true.
+
+// euclid's method to ccompute GCD
+// using while construct
+// assume x >= y.
+while(x%y!=0){
+  x = %y;
+  temp = x; x = y; y = temp;
+}
+printf("gcd of input numbers in %d \n",y);
+// using for construct
+for(;x%y!=0;){
+  x = x%y;
+  temp = x; x = y; y = temp;
+}
+printf("gcd of input number is %d \n",y);
