@@ -44,3 +44,31 @@ main(){
   }
   print("min = %d\n",min);
 }
+// what happens when first input is negative ?
+// and a check in the end.
+         
+         
+         
+// TESTING IF A NUMBER IS PRIME 
+// a number n is prime if it has no other - divisor other than one and itself.
+// idea:
+// start checking from 2 to n-1.
+// if any of the above divides n , declare "not prime"!
+// else declare "prime".
+
+         
+  // Template of a program
+scanf("%d",&n);
+i = 2; flag = 0;
+while(i<n){
+  if(n%i == 0){
+    flag = 1;
+    break;
+  }
+  i = i+1
+}
+if (1 == flag){
+  printf("not prime \n");
+}
+else{
+  printf("prime\n");
