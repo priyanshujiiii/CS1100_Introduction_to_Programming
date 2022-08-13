@@ -35,3 +35,12 @@ main(){
 //******
 //********
 
+
+// nested loops
+// type of task:
+// for each row do something
+// for each column /9in the particular row ) do sommething.
+// naturally occur when dealingwith matrices / 2d arrays (we will come to them soon!)
+// printing first k primes
+// while (we havent found k primes)
+// determine if the next number is prime.
