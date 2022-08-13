@@ -24,7 +24,7 @@ repeat{
 
 
 // mimi calculator using while loop
-
+// first attempt.
 #include<stdio.h>
 int main(){
   int x, int y; char op;
@@ -42,5 +42,27 @@ int main(){
         case 'q': printf("invalid operator\n");break;
         default: printf("error\n");
     }
+  }
+}
+// second attempt
+#include<stdio.h>
+int main(){
+  int x, int y; char op;
+  
+  printf("Input the operand\t";scanf("%c",&op));
+  
+  while (op!= 'q'){
+    printf("Input the first intger\t";scanf("%d",&x));
+    printf("Input the second intger\t";scanf("%d",&y));
+    switch(op){
+        case '+': printf("x+y = %d",x+y);break;
+        case '-': printf("x-y = %d",x-y);break;
+        case '*': printf("x*y = %d",x*y);break;
+        case '/': printf("x/y = %d",x/y);break;
+        case '%': printf("x mod y = %d",x%y);break;
+        case 'q': printf("invalid operator\n");break;
+        default: printf("error\n");
+    }
+    getchar(); peintf("Input the operand \t");scanf("%c",&op)
   }
 }
