@@ -43,3 +43,14 @@ switch(input){
 }
 // the brackets after case 'w': are not required.
 // theyare added for readabilty.                     
+// switch remark 2 
+switch(input){
+  
+  case 'w':
+       printf("Attendance is below 85%%\n");
+  case 'a':
+       printf("marks between 90--100%%\n");
+  case 'b':
+       printf("marks between 80--90%%\n"); break;
+  default: printf("Invalid characyer. Enter one of 'w','a'and 'b'")
+}
