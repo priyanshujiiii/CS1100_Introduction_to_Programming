@@ -54,7 +54,28 @@ while(count <= 10){
 }
 
 // expected solution
-int n =22;
+
+int n =2;
+while (count <= 10){
+  // decide if n i prime
+  int i = 2;int flag = 0;int j = 3;int k = 5;
+  while (i<n){
+    if(n%i==0 || n%j==0 || n%k ==0){
+      flag = 1; break;
+    }
+    i = i+1;
+  }
+  // if n is prime increment counter , print n.
+  if (0== flag){
+    printf(" The %d prime is %d\n");
+    count++;
+  }
+  // irrespective if that increment n 
+  n++;
+}
+
+// mam solution
+int n =2;
 while (count <= 10){
   // decide if n i prime
   int i = 2;int flag = 0;
@@ -72,3 +93,13 @@ while (count <= 10){
   // irrespective if that increment n 
   n++;
 }
+
+// A note aon design  finding prime factors and their powers
+// Given n, test if it is prime. If not prime , print its prime factors with corresponding powers.
+// idea
+// assume n is not prime.
+// for i = 2 to  n-1
+  // detect if it is prime.
+  // if i is prime , find the largest power of i which divides n.
+  // print i and the corresponding power.
+//
