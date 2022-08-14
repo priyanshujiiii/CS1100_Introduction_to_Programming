@@ -36,6 +36,28 @@
 main(){
   int x;
   int y;
-  int err[10] = {5};
+  int arr[10] = {5};
   
-  printf("%")
+  printf("%p\n",&x);
+  printf("%p\n",&y);
+  printf("%p\n",&arr);
+  
+  printf("%p\n",&arr[1]);
+}
+
+//
+
+#include<stdio.h>
+main(){
+  int x;
+  int y;
+  int arr[10] = {5};
+  
+  //printf("%p\n",&x);
+  //printf("%p\n",&y);
+  printf("%p\n",&arr[0]);
+  printf("%p\n",&arr[1]);
+  
+  printf("%ld\n",sizeof(arr));
+  printf("%p\n",&arr[1]);
+}
