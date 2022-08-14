@@ -61,3 +61,9 @@ main(){
   printf("%ld\n",sizeof(arr));
   printf("%p\n",&arr[1]);
 }
+// Genersating Histograms
+// Grading for an exam is over and we wish to plot histogram of marks of the students.
+// Assume test wasss for 20 marks.
+// Intger scores. No negative marking. 
+// What are the possible different scores ?
+// use arrays instead of 20 different variables.
