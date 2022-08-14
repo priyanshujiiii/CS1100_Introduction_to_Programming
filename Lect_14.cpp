@@ -69,3 +69,9 @@ printf("gcd of input numbers is %d \n",y);
 // 2) This is not true for for and while loop constructs.
 // 3) do while is useful when expr does not have to be checkedd for the first time.
   
+// Printing staircasr of Numbers.
+
+// Accept input n>=1 from user.
+// Print a staircase containing n rows.
+// Row 1 has a single 1 , row 2 has two 2's and so on.
+// Row n has n times the number n.
