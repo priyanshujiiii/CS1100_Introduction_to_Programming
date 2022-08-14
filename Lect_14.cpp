@@ -31,3 +31,38 @@ for (int i =2; i<=n;i++){
 // try coding with ideal prsented yesterday.
 // code will be invariably long. cluttered..
 // can be simplified by use of functions like isPrime(x)
+
+// do while construct
+// syntax
+do{
+  // statements.
+  }
+while(expr);
+
+// semantics
+//1) execute statement
+//2) if expr is true , goto step
+  //1 else exit loop.
+// expr must be chsasnged by statement.
+
+// euclid;s method to compute GCD
+
+// using while construct.
+// assume  x >= y.
+while(x%y !=0){
+  x = x%y;
+  temp = x; x = y; y = temp;
+}
+printf("gcd of input numbers is %d \n",y);
+
+// using do while construct
+// sassume x >=y.
+do{
+  x = x%y;
+  temp = x; x = y; y = temp;
+}
+while (x%y !=0);
+printf("gcd of input numbers is %d \n",y);
+  
+
+  
