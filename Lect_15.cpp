@@ -67,3 +67,19 @@ main(){
 // Intger scores. No negative marking. 
 // What are the possible different scores ?
 // use arrays instead of 20 different variables.
+
+// counter number of students who scored marks-i
+
+#include <stdio.h>
+int main(){
+  const int MAX_MARKS = 20;
+  const int NUM_STUDENTS = 184;
+  int marks_count[MAX_MARKS+1];
+  
+  int i , curr_marks;
+  for(i=1;i<=NUM_STUDENTS;i++){
+    printf("Enter the msarks for Rollnumber %d\t",i);
+    scanf("%d",&curr_marks);
+           /* fill in your code*/
+  }
+}
