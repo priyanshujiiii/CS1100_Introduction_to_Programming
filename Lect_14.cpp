@@ -64,5 +64,8 @@ do{
 while (x%y !=0);
 printf("gcd of input numbers is %d \n",y);
   
-
+//remarks about do while
+// 1) in the do-while form the body of the loop gets executed at least once.
+// 2) This is not true for for and while loop constructs.
+// 3) do while is useful when expr does not have to be checkedd for the first time.
   
