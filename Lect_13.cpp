@@ -41,6 +41,7 @@ main(){
 // for each row do something
 // for each column /9in the particular row ) do sommething.
 // naturally occur when dealingwith matrices / 2d arrays (we will come to them soon!)
+
 // printing first k primes
 // while (we havent found k primes)
 // determine if the next number is prime.
@@ -48,4 +49,26 @@ main(){
 int n = 2;
 while(count <= 10){
   // decide if n is prime
-  // if n in prime , increment
+  // if n in prime , increment n
+  // irrespective if that increment n
+}
+
+// expected solution
+int n =22;
+while (count <= 10){
+  // decide if n i prime
+  int i = 2;int flag = 0;
+  while (i<n){
+    if(n%i==0){
+      flag = 1; break;
+    }
+    i = i+1;
+  }
+  // if n is prime increment counter , print n.
+  if (0== flag){
+    printf(" The %d prime is %d\n");
+    count++;
+  }
+  // irrespective if that increment n 
+  n++;
+}
