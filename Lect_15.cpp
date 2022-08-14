@@ -20,3 +20,14 @@
 // float score score[1000];- defones 1000 vasssriable!
 // the value of marks [2] is 75.
 // new values can be assigned to elements marks[3] = 36;
+
+
+// storing arrays
+// all elements are of same type
+// the number of elements is finite and fixed!
+
+//Differen ways of initalizing array.
+// int count[] = {10,23,50}
+// int count [10] = {0}
+// using a loop to exlicitly intialize the elements.
+//common mistsake : Forgetting to initialize the elements of array.
