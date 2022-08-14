@@ -31,3 +31,11 @@
 // int count [10] = {0}
 // using a loop to exlicitly intialize the elements.
 //common mistsake : Forgetting to initialize the elements of array.
+
+#include<stdio.h>
+main(){
+  int x;
+  int y;
+  int err[10] = {5};
+  
+  printf("%")
