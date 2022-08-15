@@ -71,3 +71,23 @@ main(){
   //
   printf("%d\n",value);
 }
+//
+
+#include<stdio.h>
+
+main(){
+  int x,n,i;
+  int coeff[20]; // maximum degree = 20
+  int value;
+  
+  scanf("%d %d",&n,&x);
+  
+  for (i=0;i<=n;i++){
+    scanf("%d",&coeff[i]);
+  }
+  value = coeff[n];
+  for (i=(n-1);i>=0;i--){
+    // fill in this line
+  }
+  printf("%d\n",value);
+}
