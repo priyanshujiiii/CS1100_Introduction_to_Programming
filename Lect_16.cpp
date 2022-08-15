@@ -12,3 +12,21 @@
 
 // code:
 
+#include<stdio.h>
+#include<math.h>
+
+main(){
+  int x,n,i;
+  int coeff[20];// maximum degrww = 20
+  int value = 0;
+  
+  scanf("%d %d",&n,&x);
+  
+  for (i=0;i<=n;i++){
+    scanf("%d",&coeff[i]);
+    value = value + oeff [i] * pow(x,i);
+  }
+  printf("%d\n",value);
+}
+
+  
