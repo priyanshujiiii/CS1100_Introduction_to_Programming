@@ -29,4 +29,25 @@ main(){
   printf("%d\n",value);
 }
 
+// Evaluating each term separately  
+//n additions.
+// n + (n-1) + (n-2)..............
+
+#include<stdio.h>
+#include<math.h>
+
+main(){
+  int x,n,i;
+  int coeff[20];// maximum degrww = 20
+  int value = 0;
+  int factor = 1;
   
+  scanf("%d %d",&n,&x);
+  
+  for (i=0;i<=n;i++){
+    scanf("%d",&coeff[i]);
+    value = value + oeff [i] *factor;
+    factor = factor *x;
+  }
+  printf("%d\n",value);
+}
