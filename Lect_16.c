@@ -91,3 +91,11 @@ main(){
   }
   printf("%d\n",value);
 }
+
+// lEARNING FROM THE EXERCISE
+// THE FIRST ATTEMPT SOLUTION ALTOUGH CORRECT CAN BE IMPROVED.
+// NUMBER OF MULTIPLCATION : N^2---> 2N --> N
+// REQUIRES THOUGHT BEFORE CODING
+
+
+// Searching and sorting
