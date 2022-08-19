@@ -99,3 +99,15 @@ main(){
 
 
 // Searching and sorting
+
+// Searching for an element
+//  15 | 8 | 3 | 12 | 30 | 7 | 9 | 17 | 32 | 19
+// Task :  Search for a key in the array.
+int n ,key;
+for (int i = 0; i < n; i++){
+  if (A[i]==key){
+    printf("Found %d at index %d\n",key , i);
+    break;
+  }
+}
+
