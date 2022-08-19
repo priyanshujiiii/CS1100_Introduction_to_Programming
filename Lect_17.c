@@ -24,3 +24,11 @@ while (________){
 
 // solution 
 
+// Linear Search versus Binary Search
+
+// Execrcise for you:
+// Take a large sorted array.
+// use linear search to find an element not present in the array needs n comparisons
+// use binary search to find the same element in the array count and print the number of comparisons 
+// check the perfomance in terms of time.
+
