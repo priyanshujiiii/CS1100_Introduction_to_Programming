@@ -40,4 +40,10 @@ while (________){
 // 15 | 8 | 3 | 12 | 30 | 7 | 9 | 17 | 32 | 19
 // 32 | 8 | 3 | 12 | 30 | 7 | 9 | 17 | 15 | 19
 // 32 | 30 | 3 | 12 | 8 | 7 | 9 | 17 | 15 | 19
-// 15
+// .  |  . | . | .  | . | . | . | .  | .  | .
+// 32 | 30 |19 |17  |15 | 12| 9 | 8  | 7  | 3
+
+// pseudo code :
+// while (i<n)
+// maxindex == index of the max element in the part of the array indexed from i to n - . Find max index.
+
