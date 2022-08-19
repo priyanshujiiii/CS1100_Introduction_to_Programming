@@ -32,3 +32,12 @@ while (________){
 // use binary search to find the same element in the array count and print the number of comparisons 
 // check the perfomance in terms of time.
 
+// Sortiing an array in decreasing order
+// Task : Given array of an (n<=1000)
+
+// selection sort
+
+// 15 | 8 | 3 | 12 | 30 | 7 | 9 | 17 | 32 | 19
+// 32 | 8 | 3 | 12 | 30 | 7 | 9 | 17 | 15 | 19
+// 32 | 30 | 3 | 12 | 8 | 7 | 9 | 17 | 15 | 19
+// 15
