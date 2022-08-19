@@ -47,3 +47,11 @@ while (________){
 // while (i<n)
 // maxindex == index of the max element in the part of the array indexed from i to n - . Find max index.
 
+// Selection sort -  from the pseudocode to tyhe program
+// pseudo-code:
+for i ranging 0 to n-1
+  // max index = the index of the max element in the
+  // part of the array indexed from i to n -1. Find maxindex.
+  
+  // swap elemts array[i]
+  // and array [maxindex]
