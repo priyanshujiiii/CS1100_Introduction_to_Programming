@@ -101,8 +101,40 @@ void swap(in B[], int index1 , int index2){
 int main(){
   intA[10] = { 10,20,17,-10,4,28,4,9,-1,9 };
   
-  for (inti = 0; i <10; i ++){
+  for (int i = 0; i <10; i ++){
     int k = maxIndex(A, i,9);
     swapA(A,i,k);
   }
 }
+// -------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int getMaxIndex(intB[], int low,int high){
+  int maxIndex = low;
+  for (int j = low; j< = high ; j++){
+    if (A[j] > A[maxIndex]){
+      // printf("modifying\n");
+      maxIndex = j;
+    }
+    printf("maxIndex = %d\n",maxIndex);
+    return maxIndex;
+}
+void swapA (int A[], int i , int j){
+   int temp = A[i];
+   A[i] = A[j];
+   A[j] = temp;
+}
+  
+}
+int main(){
+  int arr [10] = { 25,7,9,30,44,8,-12,7,8,10};
+  
+  for (int i = 0; i <10; i ++){
+    int mIndex = getMaxIndex(arr, i,9);
+    swapA(arr,mIndex,i);
+  }
+  for(int i = 0; i < 10;i++){
+    printf("%d\t",arr[i];
+           
+}
+//--------------------------------------------------------------
