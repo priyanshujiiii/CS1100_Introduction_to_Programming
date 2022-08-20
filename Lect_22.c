@@ -34,8 +34,58 @@ void replace(char s[10]){
 }
 
 int main(){
-  char arr [10] = "Matha";
+  char arr [10] = "Maths";
   replace(arr);
   
   printf("%s\n",arr);
 }
+//>> what is the output of the program ?
+//>> recall : variables are passedby values in C always!
+//>> printf("%p\n",arr);
+//   printf("%p\n".&arr);
+//>> The address of the array is copied when the function is called.
+//>> This behaves like pass by refernce which is supported by other languages like Pascal, C++
+
+#include<stdio.h>
+
+void(int Matrix[2][4]) --> (int Matrix [][]);
+void replace(char s []){
+  int i = 0;
+  while(s[i] != 0){
+    if (s[i] == 's'){
+      s[i] = 'S';
+    }
+    i++;
+  }
+  printf("s\n",s);
+}
+int main(){
+  char arr[10] = "Maths";
+  replace(arr);
+  
+  printf("%s\n",arr);
+}
+
+//-------
+
+#include<stdio.h>
+
+void replace(char s[10]){
+  int i = 0;
+  while(s[i] !=0){
+    if (s[i] != 0){
+      s[i] = 'S'
+    }
+    i++;
+    }
+  }
+  printf("%s\n",s);
+}
+           
+int main(){
+  char arr[10] = "Maths";
+  replace(arr);
+  
+  printf("%s\n",arr);
+}
+    
