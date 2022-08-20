@@ -81,3 +81,16 @@ int main (){
 // etc seperately and using them in the main program.
 
 #include<stdio.h>
+main(){
+  char grid[5][5] = {{'c','a','t','t','y'},
+                     {'c','c','s','e','p'},
+                     {'e','s','c','e','l'},
+                     {'s','e','e','s','e'},
+                     {'e','a','p','c','s'}};
+  char gridT[5][5];
+  for (int i = 0; i < 5; i++){
+    for (int j = 0; j < 5; j ++){
+      gridT[i][j] = grid[j][i];
+    }
+  }
+}
