@@ -88,4 +88,21 @@ int main(){
   
   printf("%s\n",arr);
 }
-    
+// example
+#include<stdio.h>
+int maxIndex(intB[], int low,int high){
+  // returns an index which denotes the index of
+  // the max element in the set B[low] ..... B[high], both
+  // inclusive
+}
+void swap(in B[], int index1 , int index2){
+   //swap at the elements index1 and index2
+}
+int main(){
+  intA[10] = { 10,20,17,-10,4,28,4,9,-1,9 };
+  
+  for (inti = 0; i <10; i ++){
+    int k = maxIndex(A, i,9);
+    swapA(A,i,k);
+  }
+}
