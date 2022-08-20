@@ -19,3 +19,23 @@ void main(){
 
 // Take - away : this is an incorrect swap program.
 // How do we wrie a correct swap program?
+
+// Replace string
+#include<stdio.h>
+void replace(char s[10]){
+  int i = 0;
+  while (s[i] != 0){
+    if (s[i] == 's'){
+      s[i] = 'S';
+    }
+    i++;
+  }
+  printf("s\n",s);
+}
+
+int main(){
+  char arr [10] = "Matha";
+  replace(arr);
+  
+  printf("%s\n",arr);
+}
