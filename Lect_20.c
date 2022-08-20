@@ -52,3 +52,32 @@ int main (){
 //  | e | a | p | c | s |
 
 // which rows and columns contain cse ?
+
+//  | c | a | t | t | y |        >> find(s1,s2)
+//  | c | c | s | e | p |        >> returns 1 if s2 is ptsent in s1 , else0.
+//  | e | s | c | e | l |        >> what are s1 and s2? char arrays
+//  | s | e | e | s | e |        >> Solve it for rows , what about columns ? Find transpose !
+//  | e | a | p | c | s |
+
+// Transpose of a matrix
+// Given a character grid , find gridT which is the transpose of grid.
+
+//  | c | a | t | t | y |        | c | c | e | s | e |
+//  | c | c | s | e | p |        | a | c | s | e | a |
+//  | e | s | c | e | l |        | t | s | c | e | p |
+//  | s | e | e | s | e |        | t | e | e | s | c |
+//  | e | a | p | c | s |        | y | p | l | e | s |
+//         grid                          gridT
+
+// Given a character grid , and a string s , print the indices of the 
+// rows and columns of grid that contains .
+// Pseudo-code:
+// For each row R of grid
+  // if(find(R,s))print(index of R)
+  // gridT = transpose(grid)
+  // For each row R of gridT
+  // If (find(R,s))print(index of R)
+// Functions: concept of writing the programs for find , transpose
+// etc seperately and using them in the main program.
+
+#include<stdio.h>
