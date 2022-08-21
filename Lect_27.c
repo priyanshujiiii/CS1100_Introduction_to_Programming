@@ -136,3 +136,18 @@ void mystrcpy(char *source, char *dest){
    mystrcpy(s1,s2);
    printf("%s\n",s2);
  }
+// Using pointers - Example#1
+// Goal: we wish to store the names of three students say - "sai",
+// "Narasimhna","lakshmi" in some appropriate data-type.
+//>> what data-structure will you use?
+//>> HOW ABOUT CHAR nMES[3][11]?
+//>> USE char* Nmes[3]
+//>>>> "names" is an array of pointers to characters.
+
+int main(){
+  char *Names[3] = {"Sai", "Narashima","Lakshmi"};
+  int i ;
+  for(i=0;i<3;i++){
+    printf("%c\n",Names[i]);
+  }
+}
