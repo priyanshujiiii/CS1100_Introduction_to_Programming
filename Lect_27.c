@@ -151,3 +151,15 @@ int main(){
     printf("%c\n",Names[i]);
   }
 }
+
+// An array  of pointers
+// Goal : Read the three names from standard input.
+main(){
+  char *Names[3];
+  int i;
+  
+  for(i=o;i<3;i++){
+    printf("Enter Name %d\t",i+1);
+    scanf("%s",Names[i]);
+  }
+}
