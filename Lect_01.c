@@ -1,7 +1,7 @@
 //TURTLE Program
 
 //#include simplecpp
-main_program
+main_program()
 {
   turtleSim();
   forward(100); left(90);
