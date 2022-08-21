@@ -99,3 +99,42 @@ int main(){
 // Our usual solution: Make a and b global variables.
 // This is convenient but dangerous - because there may be other functions which use these variables.
 // Here is a more elegant solution : pass pointers holding the address of a and b to be the function.
+// Finding th error :
+void swap(int *p1 , int *p2){
+  int t;
+  t = *p1;
+  *p1 = *p2;
+  *p2 = t;
+}
+int main(){
+  int a = 10,b = 20;
+  swap(&a,&b);
+  printf("%d %d",a,b);
+}
+// Original version:
+// here we using swap2 due to github error
+void swap(intx, inty){
+  int t;
+  t = x;
+  x =y;
+  y=t;
+}
+int main(){
+  int a =10,b=20;
+  swap(a,b);
+  printf("%d %d",a,b);
+}
+
+// Another Swap function
+
+void swap(int *p1 , int *p2){
+  int *temp;
+  temp = p1;
+  p1 = p2;
+  p2 = temp;
+}
+int main(){
+  int a =10 , b = 20;
+  swap(&a,&b);
+  printf("d %d\n",a,b);
+}
