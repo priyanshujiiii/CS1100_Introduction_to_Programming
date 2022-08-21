@@ -31,3 +31,17 @@ main(){
 // The data type of pointer p and variable var should match because.
 // an intger pointer can only hold the address of intger variable.
 
+//  Example 1: : Initializing and dereferencing
+// Example::
+int x,y, *ptr1;
+ptr1 = &x; // initializing ptr1
+x = 10;
+y = *ptr1; Dereferencing ptr1
+x++;
+// What are the values of x , y, *ptr1?
+// after this, in the same program.....
+// suppose we add
+ptr1 = &key;
+(*ptr1)++;
+// What are the values of x,y , *ptr1?
+
