@@ -45,3 +45,20 @@ ptr1 = &key;
 (*ptr1)++;
 // What are the values of x,y , *ptr1?
 
+//        -------address--
+//         ---content-
+//          -adress-
+//        &*pointer
+
+//Example 2 : First program using pointers
+int main(){
+  int count;
+  int*coubtPtr;
+  
+  count = 10;
+  countPtr = &count;
+  printf("count = %d\n",count);
+  printf("count via countPtr = %d\n", *countPtr);
+  printf("address of count = %p\n", &count);
+  printf("value of countPtr = 5x\n", countPtr);
+}
