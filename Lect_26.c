@@ -14,3 +14,9 @@
 //  |  5   |   -- value
 //  |65524 |   -- address of location
 
+#include<stdio.h>
+main(){
+  char *ptr1;
+  int *ptr2;
+  printf("%lu %lu\n", sizeof(ptr1),sizeof(ptr2));
+}
