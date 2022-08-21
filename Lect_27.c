@@ -118,3 +118,21 @@ void mystrcpy(char source[], char dest[]){
    mystrcpy(s1,s2);
    printf("%s\n",s2);
  }
+
+// STRING COPY USING POINTERS
+#include<string.h>
+void mystrcpy(char *source, char *dest){
+  while(*source){
+    *dest = *source;
+    dest++;
+    source++;
+  }
+  dest[i] = '\o';
+}
+ void main(){
+   char s1[20] = "This is a string";
+   char s2[20];
+   
+   mystrcpy(s1,s2);
+   printf("%s\n",s2);
+ }
