@@ -62,3 +62,22 @@ int main(){
   printf("address of count = %p\n", &count);
   printf("value of countPtr = 5x\n", countPtr);
 }
+
+// Example 3: Second program using pointers
+int main(){
+  int* pc;
+  int c;
+  c =22;
+  printf("Address of c:%p\n",&c);
+  printf(" value of c: 5d\n\n",c);
+  pc=&c;
+  printf("Address stored in the pointer pc : %p\n",pc);
+  printf("Content of location pointed to by pc: %d\n\n",*pc);
+  c =11;
+  printf("Address stored in the pointer pc: %p\n",pc);
+  printf("Content of location pointed to by pc : %d\n\n",*pc);
+  *pc = 2;
+  printf("Affress of c:%p\n",&c);
+  printf("Value of c:%d\n\n",c);
+  return 0;
+}
