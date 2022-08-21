@@ -17,3 +17,8 @@ int digits(int n ){
   else return 1 + digits(n/10);
 }
 
+// Recursive Thinking (Eg:#1) : Largest Element in an array
+//>> Iterative Thinking: Keep the current largest , compare it with the next element.
+//   update the largest with the largest among the two . Do this for al elements in the given order.
+//>> Recursive Thinking:
+//>>>> Take out the first 
