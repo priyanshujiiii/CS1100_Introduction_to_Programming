@@ -20,3 +20,14 @@ main(){
   int *ptr2;
   printf("%lu %lu\n", sizeof(ptr1),sizeof(ptr2));
 }
+// Demo 1: Initializing and dereferencing
+// int var = 10;
+//int *p;
+// p = &var
+//          p           |        var
+// Ox7fff5ed98c4c       | 10
+// Ox7fffed98c50        | Ox7fff5ed98c4c
+// Pis a pointer that stores the address of variable var.
+// The data type of pointer p and variable var should match because.
+// an intger pointer can only hold the address of intger variable.
+
