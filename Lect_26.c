@@ -81,3 +81,21 @@ int main(){
   printf("Value of c:%d\n\n",c);
   return 0;
 }
+
+// An Application: pASSING pARAMETERS TO fUNCTIONS
+// Predict the output of the following program:
+void swap(int x , int y){
+  int t;
+  t = x;
+  x =y;
+  y = t;
+}
+int main(){
+  int a =10;b=20;
+  swap(a,b);
+  printf("%d %d" , a,b);
+}
+// Error : No swapping happens.
+// Our usual solution: Make a and b global variables.
+// This is convenient but dangerous - because there may be other functions which use these variables.
+// Here is a more elegant solution : pass pointers holding the address of a and b to be the function.
