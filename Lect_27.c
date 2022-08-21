@@ -163,3 +163,17 @@ main(){
     scanf("%s",Names[i]);
   }
 }
+// An array  of pointers - Another program
+
+main(){
+  char *Names[3]; char temp[100];int i;
+  
+  for(i=o;i<3;i++){
+    scanf("%s",temp);
+    Nmaes[i] = temp;
+    printf("%s\n",Names[i]);
+  }
+  for(i=o;i<3;i++){
+    printf("%s\n",Names[i]);
+  }
+}
