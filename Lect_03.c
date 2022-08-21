@@ -14,7 +14,7 @@ int main() {
 // print.f = a useful library function to print several things in C
 
 
-int main (void){
+int main (){
   printf("hello world\n");
   return 0;
 }
