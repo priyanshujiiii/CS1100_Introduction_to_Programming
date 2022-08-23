@@ -1,3 +1,5 @@
+//  Introduction to pointers
+
 // What is pointer ?
 // intx; : x is the name of a variable that holds data which is of 
 // type intger , Similarly float; double d; and char c;
