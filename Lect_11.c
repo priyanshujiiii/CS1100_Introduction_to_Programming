@@ -1,3 +1,5 @@
+// GCD algorithm, Bisection method for square root
+
 // Euclid's algorithm
 #include<stdio.h>
 main(){
