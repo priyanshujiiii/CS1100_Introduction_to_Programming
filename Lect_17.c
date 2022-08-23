@@ -1,3 +1,5 @@
+//  Searching in a sorted array, Selection sort
+
 // Seraching for an element in a sorted array.
 // 32 | 30 | 19 | 17 | 15 | 12 | 9 | 8 | 7 | 3
 // task :  Search for a key in a sorted array.
