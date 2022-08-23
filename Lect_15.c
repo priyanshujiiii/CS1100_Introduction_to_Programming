@@ -1,3 +1,5 @@
+// Introduction to arrays, manipulating integer arrays
+
 // One Dimensional arrays in c.
 // intger and character array.
 // manipulating arrrays.
