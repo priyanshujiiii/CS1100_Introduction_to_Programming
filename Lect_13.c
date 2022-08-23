@@ -1,3 +1,5 @@
+// Example problems which need nested loops
+
 // nested loop
 // printing pattern
 // input
