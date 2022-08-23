@@ -1,3 +1,5 @@
+// Operators in C, Single selection if
+
 //Take two intgers x and y from user.
 // Exchange values in a and y. swap two intgers.
 // Print the values of x and y.
