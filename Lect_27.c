@@ -1,5 +1,3 @@
-//  Pointers and malloc
-
 // More on Pointers: Pointers and Arrays
 
 // Pointers - Recap
