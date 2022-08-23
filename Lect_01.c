@@ -1,3 +1,4 @@
+//  Introduction to the course
 //TURTLE Program
 
 #include simplecpp
