@@ -1,3 +1,5 @@
+//  Structures and Pointers
+
 //Define Appropriate Structures and Functions
 #include<stdio.h>
 struct point {
