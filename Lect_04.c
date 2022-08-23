@@ -1,4 +1,6 @@
 // The Computing Machine overview and printf scanf in C
+
+
 //q1 basic print system
 //q2 Can be done with only print,but loops makes it shorter.
 //q3 Needed input statement (scanf) and some loop construct
