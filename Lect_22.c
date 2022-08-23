@@ -1,4 +1,6 @@
-/ swap function: 
+//  Call by value, integers versus arrays
+
+// swap function: 
 
 #include<stdio.h>
 void swap(int a , int b){
