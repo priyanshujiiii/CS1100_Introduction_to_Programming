@@ -1,3 +1,5 @@
+//  Evaluating a polynomial, searching in an array
+
 // Here are some real life problems that we may want to solve using computers.
 // Given the marks obtained by students un a class, print a histogram.
 // Evaluate a polynomial a0 + a1x +....
