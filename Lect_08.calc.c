@@ -1,3 +1,5 @@
+//  Multiple selection using switch
+
 //calculator
 #include<stdio.h>
 int main(){
