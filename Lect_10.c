@@ -1,3 +1,5 @@
+// More examples of while loop
+
 // Finding min of n intgers
 #include<stdio.h>
 main(){
