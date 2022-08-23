@@ -1,3 +1,5 @@
+// Selection if, short circuiting, assignment versus ==
+
 // swap : last class
 // does the program without temporary work for characters?
 #include<stdio.h>
