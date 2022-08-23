@@ -1,3 +1,5 @@
+// Character Arrays, Multi dimensional arrays
+
 // Character arrays 
 // char name[20] = "Avani" ;
 // char name[20] = {'A','V','A','N','I'};
