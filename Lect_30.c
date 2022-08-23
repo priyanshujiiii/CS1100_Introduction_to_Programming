@@ -1,3 +1,5 @@
+//Introduction to Structures
+
 //Problem1: Decide whether a point is inside a rectangle
 //Given a rectangle and a point
 //in 2D, determine if the point is
