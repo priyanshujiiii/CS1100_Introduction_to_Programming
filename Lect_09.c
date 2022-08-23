@@ -1,3 +1,5 @@
+// First loop construct: while
+
 // Our task today: One-Time mini calculator
 // Desired Behaviour
 // Prompts for operator, and two operands the result.
