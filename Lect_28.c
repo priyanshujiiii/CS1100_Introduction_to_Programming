@@ -1,3 +1,5 @@
+// Pointers and malloc
+
 // Using pointers - Example#1
 // Goal: we wish to store the names of three students say - "sai",
 // "Narasimhna","lakshmi" in some appropriate data-type.
