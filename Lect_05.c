@@ -1,3 +1,5 @@
+ // scanf, printf, sizeof, ranges of different datatypes
+
 //vARIABLE NAMING: RULES AND GOOD PRACTICES
 //Rules
 //Made up of letters,digits and underscore
