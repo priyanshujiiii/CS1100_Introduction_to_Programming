@@ -1,3 +1,5 @@
+// Functions, global, local vars, scope
+
 // Can we define our "commands"?
 // We alraedy know of commands like:
   // sqrt(x) evaluates to the square root of x.
