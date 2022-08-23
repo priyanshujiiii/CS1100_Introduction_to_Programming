@@ -1,3 +1,5 @@
+//  Pointers and pass by value
+
 // Example#2 : sum and average of array elements
 // we wish to return sum and average of elements of an array.
 #include<stdio.h>
