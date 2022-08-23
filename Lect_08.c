@@ -1,3 +1,5 @@
+//  Multiple selection using switch
+
 // Today: use multiple selection switch statement.
 // Syntax 
 switch(expression){
