@@ -1,3 +1,5 @@
+// Matrix addition and multiplication, character grids
+
 // Reading / WRITING MATRICES AT THE INPUT 
 // MAT : nmae of the matrix rows, cols; number of roes and columns.
 // Reading Matrices fom yhe input:
